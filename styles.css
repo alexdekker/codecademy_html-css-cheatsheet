@@ -1,0 +1,40 @@
+
+
+.mono {
+    font-family: 'Monospace', Courier, monospace;
+}
+
+h2 {
+    background-color: rgb(6, 65, 114);
+    color:black;
+    padding: 10px;
+}
+
+body {
+    background-color: midnightblue;
+    color: lightsteelblue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #090549;}
+tr:hover {background-color: rgb(6, 65, 114);}
+
+th {
+    background-color: black;
+    color: rgb(94, 94, 121);
+    padding: 6px;
+    border: 2px solid rgb(39, 40, 41);
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+td {
+  padding: 8px;
+  border: 2px solid rgb(39, 40, 41);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
